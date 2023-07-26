@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="player.css" rel="stylesheet" type="text/css" />
+  <title>Felipe Mejia - Playlist - Educamas</title>
+  <link rel="icon" href="./Img/Mp3.svg">
+</head>
+
+<body>
+
+  <div class="contenido">
+    <a href="index.html" class="atras">Regresar</a>
+
+
+    <div class="player">
+      <div class="player__header">
+        <div class="player__img player__img--absolute slider">
+          <button class="player__button player__button--absolute--nw playlist">
+            <img class="uwu" src="./Img/main-removebg-preview.png" alt="playlist-icon" />
+          </button>
+          <button class="player__button player__button--absolute--center play">
+            <img class="icon1" src="./Img/Pause.png" alt="play-icon" />
+            <img class="icon1" src="./Img/Resume.png" alt="pause-icon" />
+          </button>
+          <div class="slider__content">
+            <img class="img slider__img" src="./Img/PapaRoach.jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/artworks-000266364308-sci4dj-t500x500.jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/I Was Made For Lovin You.jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/Last Resort.jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/Smallville - Remy Zero.jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/Tokyo Drift.jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/Nirvana.jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/maxresdefault.jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/R-5327266-1472583718-9797.jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/artworks-000082318807-ut5dn2-t500x500.jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/maxresdefault (1).jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/maxresdefault (2).jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/Believer.jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/final_cover-JACKIE-BROWN-Brent-Faiyaz.webp" alt="cover" />
+            <img class="img slider__img" src="./Img/my_chemical_romance__dead_by_jowishwuzhere2_d49uwbs-fullview.jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/maxresdefault (3).jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/maxresdefault (4).jpg"alt="cover" />
+            <img class="img slider__img" src="./Img/bruno_mars_thats_what_i_like-portada.jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/maxresdefault (5).jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/31AH29QJKKL._UF1000,1000_QL80_.jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/maxresdefault (4).jpg" alt="cover" />
+            <img class="img slider__img" src="./Img/31AH29QJKKL._UF1000,1000_QL80_.jpg" alt="cover" />
+          </div>
+        </div>
+
+        <div class="player__controls">
+          <button class="player__button back">
+            <img class="img" src="./Img/neumorphic-left-arrow-button-free-png.webp" alt="back-icon" />
+          </button>
+          <p class="player__context slider__context">
+            <strong class="slider__name"></strong>
+            <span class="player__title slider__title"></span>
+          </p>
+          <button class="player__button next">
+            <img class="img" src="./Img/2.png" alt="next-icon" />
+          </button>
+          <div class="progres">
+            <div class="progres__filled"></div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="player__playlist list">
+        <li class="player__song">
+          <img class="player__img img" src="./Img/PapaRoach.jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name"> She Loves Me Not</b>
+            <span class="flex">
+              <span class="player__title">Papa Roach</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="./canciones/Papa Roach - She Loves Me Not.mp3"></audio>
+        </li>
+        <li class="player__song">
+          <img class="player__img img" src="./Img/artworks-000266364308-sci4dj-t500x500.jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name"> la leyenda del hada y el mago</b>
+            <span class="flex">
+              <span class="player__title">Rata blanca</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="./canciones/y2mate.com - Rata Blanca  La Leyenda del Hada y El Mago.mp3"></audio>
+        </li>
+        <li class="player__song">
+          <img class="player__img img" src="./Img/I Was Made For Lovin You.jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">I Was Made For Lovin' You</b>
+            <span class="flex">
+              <span class="player__title">Kiss</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/Kiss - I Was Made For Lovin You.mp3"></audio>
+        </li>
+        <li class="player__song">
+          <img class="player__img img" src="./Img/Last Resort.jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Last Resort</b>
+            <span class="flex">
+              <span class="player__title">Papa Roach</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio"
+            src="./canciones/Papa Roach - Last Resort (Squeaky Clean Version) (Official Music Video).mp3"></audio>
+        </li>
+        <li class="player__song">
+          <img class="player__img img" src="./Img/Smallville - Remy Zero.jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Save Me</b>
+            <span class="flex">
+              <span class="player__title">Remy Zero</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="./canciones/Save Me.mp3"></audio>
+        </li>
+        <li class="player__song">
+          <img class="player__img img" src="./Img/Tokyo Drift.jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Tokyo Drift</b>
+            <span class="flex">
+              <span class="player__title">Brian Tyler - Rápidos y Furiosos</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio"
+            src="./canciones/Tokyo Drift (Traducción al español)  Rápidos y Furiosos. Reto Tokyo..mp3"></audio>
+
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/Nirvana.jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Nirvana </b>
+            <span class="flex">
+              <span class="player__title">Smell</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/Nirvana - Smells Like Teen Spirit (Official Music Video).mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/maxresdefault.jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Olivia Rodrigo</b>
+            <span class="flex">
+              <span class="player__title">drivers license</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/Olivia Rodrigo - drivers license (Español).mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/R-5327266-1472583718-9797.jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Lana Del Rey</b>
+            <span class="flex">
+              <span class="player__title">Young and Beautiful </span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/Lana Del Rey - Young and Beautiful.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/artworks-000082318807-ut5dn2-t500x500.jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Birdy</b>
+            <span class="flex">
+              <span class="player__title">Not about angels</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/Not about angels - Birdy  Sub Español - Lyrics.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/maxresdefault (1).jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Morat, Juanes</b>
+            <span class="flex">
+              <span class="player__title">506</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/Morat, Juanes - 506.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/maxresdefault (2).jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Drake</b>
+            <span class="flex">
+              <span class="player__title">Gods Plan</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/Gods Plan  Drake (traducción al español).mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/Believer.jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Imagine Dragons</b>
+            <span class="flex">
+              <span class="player__title">Believer</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/Imagine Dragons - Believer (Traducida al Español).mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/final_cover-JACKIE-BROWN-Brent-Faiyaz.webp" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Brent Faiyaz</b>
+            <span class="flex">
+              <span class="player__title">JACKIE BROWN </span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/Brent Faiyaz - JACKIE BROWN [Official Audio].mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/my_chemical_romance__dead_by_jowishwuzhere2_d49uwbs-fullview.jpg"
+            alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">My Chemical</b>
+            <span class="flex">
+              <span class="player__title">Romance- Dead!</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/My Chemical Romance- Dead! (sub. españolinglés).mp3"></audio>
+        </li>
+        <li class="player__song">
+          <img class="player__img img" src="./img/maxresdefault (3).jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Iván parámo</b>
+            <span class="flex">
+              <span class="player__title">como un perro</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/COMO UN PERRO - IVÁN PÁRAMO (VIDEO OFICIAL).mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/maxresdefault (4).jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Coldplay</b>
+            <span class="flex">
+              <span class="player__title">Viva la Vida</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/Coldplay - Viva la Vida (Lyrics).mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/bruno_mars_thats_what_i_like-portada.jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Bruno Mars</b>
+            <span class="flex">
+              <span class="player__title">That’s What I Like</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/Bruno Mars - That’s What I Like [Official Music Video].mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/maxresdefault (5).jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">System Of a Down </b>
+            <span class="flex">
+              <span class="player__title">A.T.W.A</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/A.T.W.A.mp3"></audio>
+        </li>
+        <li class="player__song">
+          <img class="player__img img" src="./img/31AH29QJKKL._UF1000,1000_QL80_.jpg" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">System Of a Down </b>
+            <span class="uppercase"></span> </b>
+
+            <span class="flex">
+              <span class="player__title">¡Chop Suey!</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/Chop-Suey.mp3"></audio>
+        </li>
+
+
+
+
+
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="/player.js"></script>
+</body>
+
+</html>
