@@ -411,3 +411,12 @@ img[alt="pause-icon"] {
   background-image: color="whitesmoke";
   border-radius: 30px;
 }
+
+
+.player__song-time{
+  color: rgb(214, 212, 212);
+}
+
+.player__context{
+  color: rgb(214, 212, 212);
+}
