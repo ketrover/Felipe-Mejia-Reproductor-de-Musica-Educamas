@@ -28,7 +28,7 @@ body {
   font-family: "Quicksand", sans-serif;
   -webkit-tap-highlight-color: transparent;
   transition: background-color var(--cubic-slider);
-  background-image: url(/Img/High_resolution_wallpaper_background_ID_77701260210.webp);
+  background-image: url(./Img/High_resolution_wallpaper_background_ID_77701260210.webp);
   background-position: center;
   background-size: cover;
   min-height: 100vh;
